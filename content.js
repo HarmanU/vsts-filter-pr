@@ -1,4 +1,4 @@
-console.log("Site is Rimilia VSTS Pull Requests")
+console.log("Site is VSTS Pull Requests")
 
 var pullRequests = document.getElementsByClassName("ms-List-cell");
 var filter = "";
