@@ -13,11 +13,11 @@ chrome.runtime.onInstalled.addListener(function () {
             ],
             actions: [new chrome.declarativeContent.ShowPageAction()]
           }
-        ]);
-    });
+        ])
+    })
     
-    chrome.storage.local.set({ "filter": "" }, function() {
-    });
-
-    chrome.storage.local.set({ "active": false }, function() {});
-});
+    chrome.storage.local.set({ "branchFilter": "" }, function() { })
+    chrome.storage.local.set({ "titleFilter": "" }, function () { })
+    // chrome.storage.local.set({ "pagesToLoad": 1 }, function () { })
+    chrome.storage.local.set({ "active": false }, function() {})
+})

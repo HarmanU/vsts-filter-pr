@@ -1,17 +1,48 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="popup.css">
+  </head>
 
-<head>
-</head>
+  <body>
+    <div class="columns is-mobile is-1">
+      <div class="column is-6">
+        <div class="control">
+          <label for="branchFilterText">Branch Filter</label>
+          <input id="branchFilterText" class="input" type="text" placeholder="Branch to show">
+        </div>
+      </div>
+      <div class="column is-6">
+        <div class="control">
+          <label for="titleFilterText">Title Filter</label>
+          <input id="titleFilterText" class="input" type="text" placeholder="Title to show">
+        </div>
+      </div>
+    </div>
 
-<body>
-    <input id="filterText" type="text" placeholder="branch to show">
+    <div class="columns is-mobile is-1 is-vcentered">
+      <div class="column is-3">
+        <div class="control mt-2">
+          <label for="filterActive">Active</label>
+          <input type="checkbox" id="filterActive">
+        </div>
+      </div>
+      <div class="column is-3">
+        <!-- <div class="control">
+          <label for="pagesToLoadText">Pages To Load</label>
+          <input type="number" min="1" max="10" value="1" id="pagesToLoad">
+        </div> -->
+      </div>
+      <div class="column is-6">
+        <div class="control">
+          <button id="saveButton" class="button is-fullwidth is-primary is-small">Save</button>
+        </div>
+      </div>
+    </div>
 
-    <label for="filterActive">Active</label>
-    <input type="checkbox" id="filterActive">
-
-    <button id="saveButton">Save</button>
     <script src="popup.js"></script>
-</body>
+  </body>
 
 </html>

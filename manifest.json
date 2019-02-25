@@ -2,8 +2,8 @@
   "manifest_version": 2,
 
   "name": "Filter MS Pull Requests",
-  "version": "1.0.0",
-  "description": "Come on Microsoft, really this isn't a feature?",
+  "version": "1.1.1",
+  "description": "Come on Microsoft, really, this isn't a feature?",
   "options_page": "options.html",
 
   "page_action": {

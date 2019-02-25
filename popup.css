@@ -1,0 +1,63 @@
+.m3 {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+body {
+  padding: 10px;
+  min-width: 500px;
+}
+
+/* Top */
+.mt-1 {
+  margin-top: 1;
+}
+
+.mt-2 {
+  margin-top: 2;
+}
+
+.mt-3 {
+  margin-top: 3;
+}
+
+.mt-4 {
+  margin-top: 4;
+}
+
+/* Left */
+.ml-1 {
+  margin-left: 1;
+}
+
+.ml-2 {
+  margin-left: 2;
+}
+
+.ml-3 {
+  margin-left: 3;
+}
+
+.ml-4 {
+  margin-left: 4;
+}
+
+/* Right */
+.mr-1 {
+  margin-right: 1;
+}
+
+.mr-2 {
+  margin-right: 2;
+}
+
+.mr-3 {
+  margin-right: 3;
+}
+
+.mr-4 {
+  margin-right: 4;
+}
+
+
+
